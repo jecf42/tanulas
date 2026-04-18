@@ -263,7 +263,7 @@ Bízd rá a büntető bosszuállás dolgát.`
         setTimeout(() => {
             verseDisplay.innerHTML = '';
             wordBank.innerHTML = '';
-            pageNum.innerText = ${currentStanzaIndex + 1} / ${stanzasText.length};
+            pageNum.innerText = `${currentStanzaIndex + 1} / ${stanzasText.length}`;
             prevBtn.disabled = currentStanzaIndex === 0;
             
             let state = gameState[currentStanzaIndex];
